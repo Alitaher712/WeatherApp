@@ -71,7 +71,7 @@ class App extends Component{
         <div className='form-container'>
         <Form get_weather={this.getWeater}/>
         <Weather
-        tempreture={(int)(this.state.tempreture)}
+        tempreture={(this.state.tempreture)}
         city={this.state.city}
         country={this.state.country}
         humidity={this.state.humidity}
